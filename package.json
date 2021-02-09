@@ -1,0 +1,25 @@
+{
+    "name": "vscode-nbtdoc",
+    "displayName": "NBT Doc Syntax Highlighting",
+    "description": "Syntax highlighting for nbtdoc files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nbtdoc",
+            "aliases": ["NBT Doc", "nbtdoc"],
+            "extensions": [".nbtdoc"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nbtdoc",
+            "scopeName": "source.nbtdoc",
+            "path": "./syntaxes/nbtdoc.tmLanguage.json"
+        }]
+    }
+}
