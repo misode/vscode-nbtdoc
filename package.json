@@ -2,7 +2,12 @@
     "name": "vscode-nbtdoc",
     "displayName": "NBT Doc Syntax Highlighting",
     "description": "Syntax highlighting for nbtdoc files",
-    "version": "0.0.1",
+    "version": "1.0.0",
+	"publisher": "Misodee",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/misode/vscode-nbtdoc.git"
+	},
     "engines": {
         "vscode": "^1.53.0"
     },
